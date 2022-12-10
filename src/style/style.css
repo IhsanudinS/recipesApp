@@ -1,0 +1,55 @@
+@import 'mealList.css';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.showcase-area {
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.main-title{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.search {
+    position: relative;
+    width: 60%;
+    height: 50px;
+    top: 70px;
+    left: 20%;
+    right: 20%;
+    background-color: #fff;
+    display: flex;
+    text-align: center;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+}
+
+.button {
+    display: grid;
+    place-items: center;
+    width: 50px;
+    font-size: 19px;
+    cursor: pointer;
+    border : none;
+}
