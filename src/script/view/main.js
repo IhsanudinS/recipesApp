@@ -11,7 +11,7 @@ const main = () => {
 
   const onButtonSearchClicked = async () => {
     try {
-      const result = await DataSource.searchMeal(searchElement.value);
+      const result = await DataSource.searchRecipes(searchElement.value);
       renderResult(result);
     } catch (message) {
       fallbackResult(message);
